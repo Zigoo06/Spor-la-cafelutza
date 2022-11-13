@@ -9,7 +9,7 @@ function activate(context) {
   );
 
   let disposable = vscode.commands.registerCommand(
-    "spor-la-cafelutza.spor-la-cafeluta",
+    "spor-la-cafelutza.buna-dimineata",
     function () {
       vscode.window.showInformationMessage("Spor la cafelutza!");
     }
